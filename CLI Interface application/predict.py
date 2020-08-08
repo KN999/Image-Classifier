@@ -22,7 +22,7 @@ if __name__ == "__main__":
     category_names = parser.parse_args().category_names
     
     if category_names == None:
-        category_names = "./label_map.json"
+        category_names = "../label_map.json"
     if top_k == None:
         top_k = 3
         
